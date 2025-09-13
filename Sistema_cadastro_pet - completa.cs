@@ -11,6 +11,7 @@
             Console.WriteLine($"Nome:{Nome}, Idade: {Idade}");
         }
     }
+//////////// SUBCLASSE //////////////////////
  public class Gato:Animal    //
     {
         public bool GostarDeColo {  get; set; }
@@ -21,6 +22,7 @@
             Console.WriteLine($"Gato -> Nome {Nome}, Idade: {Idade}, Gosta de Colo: {resposta}");
         }
     }
+//////////// SUBCLASSE //////////////////////
  public class Cachorro : Animal  //
     {
         public string Raca {  get; set; }
